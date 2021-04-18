@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: 'open sans', sans-serif;
+}
+
+body {
+  background-color: rgba(155, 222, 164, 0.7);
+}
+
+main {
+  background-color: rgba(240, 240, 240, 0.8);
+  text-align: center;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+#title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+#img-div {
+  margin: auto;
+  background-color: white;
+  max-width: 100%;
+  width: 300px;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(200, 200, 200);
+  margin-bottom: 2rem;
+}
+
+#img-caption {
+  font-style: italic;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+}
+
+#tribute-info {
+  margin: 0 auto 2rem auto;
+  max-width: 800px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#tribute-link {
+  color: rgba(50, 50, 50);
+  font-size: 0.8rem;
+}
+
+.polaroid {
+  max-width: 200px;
+  padding: 0.6rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(200, 200, 200);
+  margin: 2rem auto;
+}
+
+.polaroid img {
+  max-width: 100%;
+}
+
+.polaroid figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.quote {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.quote .text {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.95rem;
+  margin-bottom: .5rem;
+}
+
+.quote .author {
+  margin-top: 0;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+footer {
+  font-size: 0.8rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 550px) {
+  .float-left {
+    float: left;
+    margin: 0 2rem 1rem 0;
+  }
+
+  .float-right {  
+    float: right;
+    margin: 0 0 1rem 2rem;  
+  }
+  
+  #main {
+    padding: 3rem 3rem 1rem 3rem;
+  }
+}
